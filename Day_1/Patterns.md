@@ -41,8 +41,8 @@ Let's try a quick test of this logic. Using your prefix sum array `[1000, 5000, 
 | **724** | Find Pivot Index | Easy 🟢 | Uses the total sum and prefix sum to find a balance point. |
 | **560** | Subarray Sum Equals K | Medium 🟡 | A classic interview question that combines prefix sums with a Hash Map to find specific targets. |
 
----
+- LC 1480 / 303: You learned how precomputing running totals allows you to check ranges instantly.
+- LC 724: You realized you can optimize space from $O(N)$ down to $O(1)$ by using a single total sum integer instead of a full array.
+- LC 525 / 560: You mastered how to combine prefix math with a Hash Map to remember historical trends, breaking down a complex problem into instant $O(1)$ dictionary lookups.
 
-Let's start practicing with the logic behind **LC 303 (Range Sum Query)** or **LC 724 (Find Pivot Index)**.
-
-In **Find Pivot Index**, you need to find a spot in the array where the sum of all numbers to the left equals the sum of all numbers to the right.
+You have completely conquered the Prefix Sum pattern. Day 1 is officially complete!
